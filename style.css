@@ -1,0 +1,116 @@
+@font-face {
+    font-family:'male';
+    src: url('./Males-3zq18.svg');
+}
+
+@font-face {
+    font-family: 'happy kids';
+    src: url(./HappyKids-rORO.otf);
+}
+
+@font-face {
+    font-family: 'gratise';
+    src: url('./Gratise-PKl5B.otf');
+}
+
+@font-face {
+    font-family: 'mat';
+    src: url('./MatSaleh-2OB68.otf');
+}
+
+body{
+    background-color: coral;
+}
+
+#header_wrapper{
+     background-color: rgb(201, 164, 119); 
+     padding:1%;
+}
+
+h1{
+   font-family:'male';
+   text-align: center;
+   text-transform: uppercase;
+   color: rgb(112, 31, 31); 
+   text-shadow: 3px 3px 3px black; 
+   font-size: 40pt;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 30px;
+    border-right: 1px solid #000000;
+    padding-right:3px;
+    font-family: 'happy kids';
+    color: rgb(255, 238, 0);
+    letter-spacing: 15px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.cont{
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+
+
+.dis{
+    color: rgb(112, 31, 31);
+    font-size:30px;
+	text-decoration:underline;
+    font-family: 'gratise';
+    text-shadow: 3px 3px 3px rgb(128, 120, 120);
+}
+
+
+.top{
+	text-decoration:none;
+	color:white;
+	position:fixed;
+	top:85%;
+	margin-left:88%;
+	padding:8px;
+	font-family:arial;
+	font-size:2.5em;
+	background-color:rgba(78, 9, 42, 0.3);
+	border-radius:3px 25px 3px 25px;
+	cursor:pointer;
+}
+
+
+.top:hover{
+	background-color: #881f1f;
+	border:1px solid darkred;
+}
+
+
+.img{
+    margin-top: 10px;
+}
+
+
+#dt{
+    background-color: rgba(123,123,132,0.4);
+    padding: 5px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 29px;
+    text-shadow: 3px 3px 3px black ;
+    font-family: 'male';
+    letter-spacing: 5px;
+     
+
+}
+
+
+#text1{
+    color: #fff;
+    font-size:20px;
+	font-family:'happy kids';
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px black; 
+}
+
